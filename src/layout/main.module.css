@@ -1,0 +1,91 @@
+@import url("../utils/Fonts/fonts.css");
+@import url("../utils/animations/animations.css");
+
+
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    border-bottom: white 2px solid;
+    border-top: white 2px solid;
+}
+
+.apresentacao h1{
+    font-family: 'Syncopate', sans-serif;
+    animation-name:fadeIn;
+    font-weight: bold;
+    animation-duration: 2s;
+    background-color: black;
+    color: green;
+    margin-right: 2rem ;
+    
+}
+.apresentacao h2{
+    font-family: 'Syncopate', sans-serif;
+    animation-name:fadeIn;
+    animation-duration: 5s;
+    background-color: black;
+    color: green;
+    margin-right: 2rem ;
+    margin-bottom: 40px;
+}
+
+.apresentacao h3 {
+  margin-top: 20px;
+  font-family: 'Syncopate', sans-serif;
+  font-size: 1.3rem;
+  background-color: black;
+  text-align: center;
+  color: yellow;
+  margin-right: 2rem;
+  overflow: hidden; /* Para esconder os caracteres antes da animação */
+  white-space: nowrap; /* Para garantir que o texto não quebre em várias linhas */
+  animation: typingAnimation 6s steps(40, end) 0s forwards;
+}
+
+@keyframes typingAnimation {
+  from {
+    width: 0; /* Começa sem largura (texto escondido) */
+  }
+  to {
+    width: auto; /* Aumenta a largura até o tamanho completo do texto */
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+  
+ 
+
+
+
