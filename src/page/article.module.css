@@ -1,46 +1,4 @@
 .article{
     color: white;
-}
-
-.listaformacoes{
-    color: white;
-}
-
-.cardformacao{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.number{
-    align-items: center;
-    justify-content: center;
-}
-
-.number h2{
-    text-align: center;
-    font-size: 3rem;
-    border: 2px solid white;
-    background: white;
-    color: black;
-    width: 5rem;
-    height: 4rem;   
-}
-
-.primeira{
-    background: gray;
-    width: 100%;
-}
-
-
-.cardformacao2{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-}
-
-.segunda{
-    background: gray;
-    width: 100%;
     
 }

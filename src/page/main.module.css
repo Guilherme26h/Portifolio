@@ -11,8 +11,7 @@
     text-align: center;
     align-items: center;
     background-color: black;
-    border-bottom: white 2px solid;
-    border-top: white 2px solid;
+    height: 100vh;
 }
 
 .apresentacao h1{
