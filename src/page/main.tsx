@@ -1,5 +1,5 @@
 import React from 'react'
-import { apresentacao, formacao, experiencia, trabalhos } from '../utils/MainText';
+import { apresentacao} from '../utils/MainText';
 import Author from '../images/perfil.jpg';
 import style from './main.module.css'
 
@@ -18,7 +18,7 @@ const main = () => {
                 
             </div>
             <div>
-                <div className="authorPhoto">
+                <div className={style.authorPhoto}>
                     <img src= {Author}/>
                 </div>
             </div>

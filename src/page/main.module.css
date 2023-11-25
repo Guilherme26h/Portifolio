@@ -48,6 +48,16 @@
   animation: typingAnimation 6s steps(40, end) 0s forwards;
 }
 
+
+.authorPhoto img{
+  height: 200px;
+  width: 200px;
+  border: solid green 10px;
+  border-radius: 50%;
+}
+
+/*animações*/
+
 @keyframes typingAnimation {
   from {
     width: 0; /* Começa sem largura (texto escondido) */
