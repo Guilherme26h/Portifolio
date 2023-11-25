@@ -26,9 +26,24 @@ const article = () => {
           </div>
 
         </div>
-        <div className={style.cardformacao2}></div>
-        <li>{formacao[3]}</li>
-        <li>{formacao[4]}</li>
+        <div className={style.cardformacao}>
+          <div className={style.number}>
+            <h2>3</h2>
+          </div>
+          <div className={style.cardformacao}>
+            <h2>{formacao[3]}</h2>
+          </div>
+
+        </div>
+        <div className={style.cardformacao2}>
+          <div className={style.number}>
+            <h2>4</h2>
+          </div>
+          <div className={style.cardformacao2}>
+            <h2>{formacao[4]}</h2>
+          </div>
+        </div>
+
       </div>
     </div>
   )
