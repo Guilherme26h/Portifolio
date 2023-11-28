@@ -1,16 +1,18 @@
 .article{
     color: white;
+    
 }
 
 .listaformacoes{
     color: white;
-    height: 100vh;
+    height: 20vh;
 }
 
 .cardformacao{
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 
 .number{

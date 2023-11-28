@@ -1,6 +1,8 @@
 import React from 'react'
 
 import style from './titlecomponent.module.css';
+import CardComponent from '../cardcomponent/cardcomponent';
+
 
 const TitleComponent = (props : any) => {
     return (
@@ -11,7 +13,7 @@ const TitleComponent = (props : any) => {
                 </div>
                 <div className={style.primeira}>
                     <h2>{props.profissao}</h2>
-                </div>
+                </div> 
             </div>
         </div>
     )
